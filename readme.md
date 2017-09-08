@@ -32,7 +32,7 @@ output "my_project.public_dns" {
 } 
 ```
 
-then `terraform plan` and `terraform apply` when you are good.
+then `terraform get`, `terraform plan` and `terraform apply` when you are good.
 
 Any feedback, comment, improvement just file an issue also PR are welcome :)
 
