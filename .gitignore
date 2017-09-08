@@ -1,0 +1,7 @@
+# Terraform
+/.terraform/
+terraform.tfstate*
+
+# Node & NPM
+node_modules/
+npm-debug.log

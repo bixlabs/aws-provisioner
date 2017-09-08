@@ -1,0 +1,14 @@
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Julian Reyes",
+    "email": "jreyes@bixlabs.com",
+    "url": "https://twitter.com/rokemaster"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "private": true
+}
