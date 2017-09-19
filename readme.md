@@ -28,7 +28,7 @@ module "my_project" {
 }
 
 output "my_project.public_dns" {
-  value = "{module.my_project.nginx_node.public_dns}"
+  value = "${module.my_project.nginx_node.public_dns}"
 }
 ```
 
@@ -62,7 +62,7 @@ module "my_project" {
 }
 
 output "my_project.public_dns" {
-  value = "{module.my_project.nginx_node.public_dns}"
+  value = "${module.my_project.nginx_node.public_dns}"
 }
 ```
 
