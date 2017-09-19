@@ -29,6 +29,7 @@ resource "aws_instance" "nginx_node" {
       "/home/ubuntu/provision/install_nvm.sh",
       "/home/ubuntu/provision/install_dummy_app.sh",
       "/home/ubuntu/provision/install_nginx.sh",
+      "/home/ubuntu/provision/install_postgres.sh ${var.db_name}",
     ]
   }
 
