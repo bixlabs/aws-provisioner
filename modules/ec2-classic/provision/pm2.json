@@ -1,0 +1,10 @@
+{
+  "name": "dummy-app",
+  "cwd": "/home/ubuntu/app",
+  "script": "index.js",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "instances": 2,
+  "exec_mode": "cluster"
+}
