@@ -18,7 +18,7 @@ resource "aws_instance" "nginx_node" {
   }
 
   provisioner "file" {
-    source = "${path.module}/../provision/"
+    source = "${path.module}/provision/"
     destination = "/home/ubuntu/provision/"
   }
 
