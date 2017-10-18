@@ -32,7 +32,7 @@ output "my_project.public_dns" {
 }
 ```
 
-then `terraform get`, `terraform plan` and `terraform apply` when you are good.
+then `terraform init`, `terraform get`, `terraform plan` and `terraform apply` and you are good to go.
 
 ## `modules/ec2-postgresql`
 it will create a ubuntu 16.04 with all from `modules/ec2` plus
